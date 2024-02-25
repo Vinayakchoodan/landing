@@ -1,0 +1,86 @@
+/* Custom Fonts */
+@import url('https://fonts.googleapis.com/css?family=Chivo:700|Overpass:400,700&display=swap');
+
+/* General Styling */
+body {
+  font-family: 'Overpass', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Banner Styling */
+.banner {
+  background-image: url('images_code/mk.2.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0; /* Adjust the padding as needed */
+}
+
+.banner h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.banner p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.banner .btn-blue {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #ff6600; /* Orange color */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.banner .btn-blue:hover {
+  background-color: #cc5500; /* Darker shade of orange on hover */
+}
+
+/* Card Styling */
+.card-white {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.card-white img {
+  width: 100%;
+  height: auto;
+}
+
+.card-white h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-white p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #ff6600; /* Orange color */
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer p {
+  margin: 0;
+}
